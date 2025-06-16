@@ -9,7 +9,7 @@ const indexRouter = require('./routes/index');
 const entriesRouter = require('./routes/entries');
 
 const uri = process.env.MONGO_DB_ATLAS_URI;
-
+console.log (uri)
 const clientOptions = { serverApi: { version: '1', strict: true, deprecationErrors: true } };
 
 async function run() {
