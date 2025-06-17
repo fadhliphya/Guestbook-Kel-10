@@ -1,70 +1,97 @@
-<h1 align="center">Express Guestbook By Group 10</h1>
+# 📝 Guestbook DevOps Project – Final Project PSO
 
-<p align="center">
-  <a href="https://github.com/SafdarJamal/express-guestbook/actions?query=workflow%3A%22Node.js+CI%22">
-    <img src="https://github.com/SafdarJamal/express-guestbook/workflows/Node.js%20CI/badge.svg" alt="Node.js CI" />
-  </a>
-  <a href="https://github.com/SafdarJamal/express-guestbook/releases">
-    <img src="https://img.shields.io/github/v/release/SafdarJamal/express-guestbook" alt="GitHub Release (latest by date)" />
-  </a>
-  <a href="https://github.com/SafdarJamal/express-guestbook/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/SafdarJamal/express-guestbook" alt="License" />
-  </a>
-</p>
+Sebuah aplikasi **buku tamu digital (guestbook)** berbasis **Node.js dan Express.js** yang menerapkan praktik **DevOps** melalui **GitHub Actions** sebagai *Continuous Integration* dan **Vercel** untuk *Continuous Deployment*. Aplikasi ini juga terhubung dengan **MongoDB Atlas** sebagai backend database berbasis cloud.
 
-<p align="center">
-  A Node.js web application that allows visitors to leave a public comment without creating a user account.
-</p>
+---
 
-![Express Guestbook](https://user-images.githubusercontent.com/48409548/172023724-7631322c-9156-4c2e-9539-5371b76677fc.png)
+## 📅 Project Timeline
 
-## Tech Stack
+| Week | Fokus                             |
+|------|-----------------------------------|
+| 1    | Perencanaan Proyek                |
+| 2    | Desain Pipeline & Pemilihan Tools |
+| 3    | Pembuatan Prototipe & Setup       |
+| 4    | Pengujian & Penyempurnaan         |
+| 5    | Presentasi Final                  |
 
-- [Node.js](https://nodejs.org)
-- [Express](https://expressjs.com)
-- [MongoDB](https://www.mongodb.com)
-- [EJS](https://ejs.co)
-- [Bootstrap](https://getbootstrap.com)
+📌 Dapat diakses melalui: [https://intip.in/Timeline10B](https://intip.in/Timeline10B)
 
-## Development
+---
 
-To get a local copy of the code, clone it using git:
+## 🚀 Tech Stack
 
-```
-git clone https://github.com/SafdarJamal/express-guestbook.git
+- **Frontend + Backend**: Node.js, Express.js, EJS Template
+- **Styling**: Bootstrap
+- **Database**: MongoDB Atlas
+- **CI/CD**: GitHub Actions (CI) + Vercel (CD)
+- **Monitoring**: Uptime Kuma
+- **Version Control**: Git + GitHub
+
+---
+
+## 🧰 Tools & Alasan Pemilihan
+
+| Tool           | Fungsi                 | Alasan Pemilihan                              |
+|----------------|------------------------|-----------------------------------------------|
+| GitHub Actions | Continuous Integration | Terintegrasi langsung dengan GitHub Repository |
+| Vercel         | Continuous Deployment  | Auto-deploy, mudah digunakan, support Node.js |
+| MongoDB Atlas  | Database Cloud         | Gratis, mudah dikonfigurasi, dan stabil       |
+| Express.js     | Backend Framework      | Ringan, cepat, dan cocok untuk REST API       |
+| Uptime Kuma    | Monitoring             | Gratis, open-source, dan update berkala       |
+
+---
+
+## 📁 Setup & Menjalankan Aplikasi
+
+### 1. Clone Repository:
+```bash
+git clone https://github.com/fadhliphya/Guestbook-Kel-10
 cd express-guestbook
 ```
 
-Install dependencies:
-
-```
+### 2. Install Dependencies:
+```bash
 npm install
 ```
 
-Now, you can start a local web server by running:
-
-```
+### 3. Jalankan Aplikasi:
+```bash
 npm start
 ```
 
-and then you can open http://localhost:8080 to view it in the browser.
+🔗 Buka di browser: [http://localhost:8080](http://localhost:8080)
 
-#### Available npm Scripts
+---
 
-| Script      | Description                                                   |
-| ----------- | ------------------------------------------------------------- |
-| npm install | Installs the dependencies in the local `node_modules` folder. |
-| npm start   | Runs the app in production mode.                              |
-| npm run dev | Runs the app in development mode.                             |
+### 📜 Script yang Tersedia
 
-## Contributing
+| Script        | Fungsi                                                     |
+|---------------|------------------------------------------------------------|
+| `npm install` | Menginstal seluruh dependency proyek                       |
+| `npm start`   | Menjalankan aplikasi dalam mode produksi                   |
+| `npm run dev` | Menjalankan aplikasi dalam mode pengembangan (nodemon)    |
 
-Contributions, issues, and feature requests are welcome.
+---
 
-## Credits
+## 📄 Link Dokumentasi
 
-Express Guestbook is built and maintained by [Safdar Jamal](https://safdarjamal.github.io).
+🗂 Dokumentasi lengkap proyek dapat diakses melalui:  
+🔗 [https://intip.in/Dokumentasi10B](https://intip.in/Dokumentasi10B)
 
-## License
+---
 
-Express Guestbook is [MIT Licensed](https://github.com/SafdarJamal/express-guestbook/blob/master/LICENSE).
+## 👥 Tim Pengembang
+
+Proyek ini menggunakan open-source template dari [Safdar Jamal](https://safdarjamal.github.io), dan dikembangkan lebih lanjut oleh **Tim Kelompok 10** untuk final project mata kuliah **PSO**.
+
+| Nama Lengkap                 | NRP         |
+|-----------------------------|--------------|
+| Zaizafun Naura              | 5026221090   |
+| Mirna Irawan                | 5026221192   |
+| Maureen Ghassani Fadhlipnya | 5026221193   |
+
+---
+
+## 🪪 Lisensi
+
+Proyek ini menggunakan lisensi open-source [MIT License](https://github.com/SafdarJamal/express-guestbook/blob/master/LICENSE).
