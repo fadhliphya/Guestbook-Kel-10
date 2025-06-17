@@ -1,4 +1,4 @@
-<h1 align="center">Express Guestbook</h1>
+<h1 align="center">Express Guestbook By Group 10</h1>
 
 <p align="center">
   <a href="https://github.com/SafdarJamal/express-guestbook/actions?query=workflow%3A%22Node.js+CI%22">
