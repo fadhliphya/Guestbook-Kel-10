@@ -7,7 +7,7 @@ describe('Validasi data entry dengan Joi', () => {
       email: 'maureen@example.com',
       comment: 'Ini komentar uji'
     });
-    expect(result.error).toBeDefined();
+    expect(result.error).toBeUndefined();
   });
 
   test('Invalid jika nama kosong', () => {
